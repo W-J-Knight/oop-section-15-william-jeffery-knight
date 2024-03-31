@@ -23,7 +23,7 @@ class Person {
   }
 
   get fullName(){
-    return `${this.firstName} ${this._lastName}`
+    return `${this.firstName} ${this.lastName}`
   }
 
   capitalizeFirst(value){
