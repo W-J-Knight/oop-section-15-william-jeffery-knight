@@ -4,6 +4,8 @@ class Person {
     this._lastName = lastName;
   }
 
+
+
   get firstName (){
     return this.capitalizeFirst(this._firstName)
   }
